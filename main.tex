@@ -1,0 +1,111 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Bridger}{Hahn}
+%\title{}                               % optional, remove / comment the line if not wanted
+\address{5239 Lake Road West \#405}{Saybrook}{Ohio}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+1~(440)~417~8328}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{bridgerhahn@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+\extrainfo{github.com/bridgar}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+\cventry{2012--2016}{BS}{Stony Brook}{Stony Brook, NY}{\textit{Computer Science}}{Honors Degree}  % arguments 3 to 6 can be left empty
+%\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+
+\section{Awards}
+\cvlistitem{Dean’s List Fall 2012--Spring 2015}
+\cvlistitem{Stony Brook Provost’s Scholarship Fall 2012--Spring 2016}
+
+\section{Interests}
+\cvitem{Security}{Censorship, NetSec, and Encryption}
+\cvitem{Algorithms}{Cool and Fun Algorithms}
+\cvitem{Data Structures}{Write Optimized Data Structures and Quotient Filters}
+\cvitem{Puzzles}{DFA Puzzles, Logic Puzzles, Physics Puzzles, You Name It!}
+\cvitem{Other}{Above are interests that I am formally acquainted with. However, most Computer Science topics interest me.}
+
+\section{Experience}
+\cventry{2015--Present}{Student Intern}{Sandia National Laboratories}{Livermore, CA}{}{%General description no longer than 1--2 lines.\newline{}%
+Detailed achievements:%
+\begin{itemize}%
+\item Researched practical applications of Shamir secret sharing and Write-Optimized Data Structures applied to network event tracking.
+\item Designed and implemented a write-optimized database for storing network events.
+\item Resulted in two publications.
+\end{itemize}}
+
+\section{Publications}
+\begin{enumerate}
+	\item  B Hahn, R Nithyanand, P Gill, and R Johnson, “\textbf{Games Without Frontiers: Investigating Video Games as a Covert Channel},” in 1st IEEE European Symposium on Security and Privacy (EuroS\&P), 2016 \\ \url{http://arxiv.org/abs/1503.05904};
+	\item D Zage, H Xu, T Kroeger, B Hahn, N Donoghue, and T Benson, “\textbf{Secure Membership Tests via Secret Sharing},” in International Workshop on Computing, Networking and Communications (CNC at ICNC), 2016;
+	\item N Donoghue, B Hahn, H Xu, T Kroeger, D Zage, and R Johnson, “\textbf{Tracking Network Events with Write Optimized Data Structures},” in 4th International Workshop on Building Analysis Datasets and Gathering Experience Returns for Security (BADGERS at RAID), 2015.
+\end{enumerate}
+
+\section{Press}
+\begin{enumerate}
+	\item \textbf{WIRED} -- \href{http://www.wired.com/2015/04/app-hides-secret-messages-starcraft-style-games/}{\color{blue}An App That Hides Secret Messages in Starcraft-Style Games} 4/15/15 \\
+	Fantastic article by Andy Greenberg, highlighting my project, Castle. He makes the work significant and accessible to a broader audience.
+	\item \textbf{CNN} -- \href{http://www.cnn.com/2015/10/25/asia/china-war-internet-great-firewall/}{\color{blue}Great Firewall rising: How China wages its war on the Internet} 10/25/15\\
+	Great piece by James Griffiths, covering the Great Firewall of China. When discussing anti-censorship efforts to circumvent the wall, he presents my project, Castle, as a favorable alternative to VPNs.
+	\item \textbf{South China Morning Post} -- \href{http://www.scmp.com/tech/apps-gaming/article/1775587/anti-censorship-technology-uses-online-video-games-bypass-chinese}{\color{blue}Anti-censorship technology uses online video games	to bypass Chinese internet restrictions} 4/27/15\\
+	Nice, short piece by James Griffiths, spotlighting my project, Castle. His goal, as he said in our interview, is to spread awareness of the project within China. We have since been contacted by several Chinese citizens asking to use our system.
+	\item \textbf{Statesman} -- \href{http://sbstatesman.com/2015/07/01/researchers-develop-a-way-to-send-secret-messages-through-video-games/}{\color{blue}Researchers develop a way to send secret messages through video games} 7/1/15 \\
+	Great article from Sarah Elsesser, a fellow Stony Brook student, spreading interest in my project, Castle, to Stony Brook students, faculty, and staff.
+\end{enumerate}
+
+\section{References}
+\begin{cvcolumns}
+	\hspace{-3cm}
+  \cvcolumn{Professor}{Michael Bender\\Phillipa Gill\\ Rob Johnson}
+  \cvcolumn{University}{Stony Brook\\ Stony Brook\\ Stony Brook}
+  \cvcolumn[0.5]{Contact}{bender@cs.stonybrook.edu\\ phillipa@cs.stonybrook.edu\\ rob@cs.stonybrook.edu}
+\end{cvcolumns}
+
+\clearpage
+\end{document}
+
+
+%% end of file `template.tex'.
