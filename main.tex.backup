@@ -75,7 +75,7 @@ Detailed achievements:%
 \end{itemize}}
 
 \section{Current Work}
-\textbf{Network Level Privacy}: I am currently working on implementing an SDN protocol to be run at border routers of an ISP. This protocol would provide anonymity for users within the ISP and not interfere with ordinary packet routing.
+Network Level Privacy
 
 \section{Publications}
 \begin{enumerate}
@@ -101,9 +101,9 @@ Detailed achievements:%
 \section{References}
 \begin{cvcolumns}
 	\hspace{-3cm}
-  \cvcolumn{Professor}{Michael Bender\\Phillipa Gill\\ Rob Johnson \\ Nick Feamster}
-  \cvcolumn{University}{Stony Brook\\ Stony Brook\\ Stony Brook \\ Princeton}
-  \cvcolumn[0.5]{Contact}{bender@cs.stonybrook.edu\\ phillipa@cs.stonybrook.edu\\ rob@cs.stonybrook.edu \\ feamster@cs.princeton.edu}
+  \cvcolumn{Professor}{Michael Bender\\Phillipa Gill\\ Rob Johnson}
+  \cvcolumn{University}{Stony Brook\\ Stony Brook\\ Stony Brook}
+  \cvcolumn[0.5]{Contact}{bender@cs.stonybrook.edu\\ phillipa@cs.stonybrook.edu\\ rob@cs.stonybrook.edu}
 \end{cvcolumns}
 
 \clearpage
