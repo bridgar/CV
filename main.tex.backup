@@ -55,15 +55,13 @@
 
 \section{Education}
 \cventry{2012--2016}{BS}{Stony Brook}{Stony Brook, NY}{\textit{Computer Science}}{Honors Degree}  % arguments 3 to 6 can be left empty
-\cventry{2016--Current}{MS}{Princeton}{Princeton, NJ}{\textit{Computer Science}}{}
+\cventry{2016--2018}{MS}{Princeton}{Princeton, NJ}{\textit{Computer Science}}{Incomplete}
 %\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
 
-\section{Awards}
-\cvlistitem{Stony Brook Provost’s Scholarship Fall 2012--Spring 2016}
-
 \section{Interests}
-\cvitem{Networking}{Internet of Things, Software Defined Networking}
+\cvitem{Networking}{Streaming Content}
 \cvitem{Security}{Network Privacy, Censorship}
+\cvitem{Warhammer 40K}{Tournament Organizing, Competitive Play, Painting Models}
 
 \section{Experience}
 \cventry{2015--2016}{Student Intern}{Sandia National Laboratories}{Livermore, CA}{}{%General description no longer than 1--2 lines.\newline{}%
@@ -88,11 +86,11 @@ Detailed achievements:%
 
 \section{Teaching}
 \cvitem{Fall 2016 -- present}{COS 126 TA:
-Many students come to this course with no CS background and require lots of attention to keep up in the course. I have hosted additional review sessions and office hours to help struggling students to better learn the material. I try to get students interested in CS and motivate the material.}
-%\cventry{Summer 2017}{Near Peer Mentor}{Princeton University}{}{%General description no longer than 1--2 lines.\newline{}%
-%Mentored an REU student from a nearby University. Students were paired with mentors of varying backgrounds to supply new perspectives on their research.}
-%\cventry{Summer 2017}{Princeton Summer Programming Mentor}{Princeton University}{}{%General description no longer than 1--2 lines.\newline{}%
-%Mentored a group of undergraduate students who were tasked with creating a social media app to meet new friends. The students had no prior experience with databases, servers, or app development.}
+Teaching has offered me a unique opportunity to impact many undergraduate students. Students often come to this course with no CS background and require additional attention to keep up. I try to go the extra mile to interest students in CS and motivate the material, holding additional review sessions and extended office hours.}
+\cvitem{Summer 2017}{Near Peer Mentor: 
+Mentored an REU student from a nearby University. Students were paired with mentors of varying backgrounds to supply new perspectives on their research.}
+\cvitem{Summer 2017}{Princeton Summer Programming Mentor
+Mentored a group of undergraduate students who were tasked with creating a social media app to meet new friends. The students had no prior experience with databases, servers, or app development.}
 
 \section{Press}
 \begin{enumerate}
